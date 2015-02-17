@@ -1,0 +1,4 @@
+Gene1	Nm	5	7	2
+Gene1	CVc	4	6	3
+Gene2	Nm	8	11	7
+Gene2	CVc	3	4	1
