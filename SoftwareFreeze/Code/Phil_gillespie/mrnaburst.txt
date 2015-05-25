@@ -1,0 +1,14 @@
+20000
+
+gam = 0.005,lam=.001: Pactive=Pinactive
+k2 = 0.0: Pinactive=Pinactive+mRNA
+mu = 3   : Pactive=Pactive+mRNA
+del = 0.008   : mRNA=
+mu_p = 0    : mRNA=mRNA+P
+del_p = .005 : P=
+
+Initial values
+mRNA = 0
+Pactive = 1
+Pinactive = 0
+P = 0

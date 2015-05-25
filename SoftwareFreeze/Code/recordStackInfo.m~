@@ -1,0 +1,20 @@
+function [] = recordStackInfo(varargin)
+
+%Records the plane spacing within stacks to objects().metadata.planeSpacing
+%recordStackInfo(spacing) applies the same spacing to all objects
+%recordStackInfor(spacing,objs) applies spacing to specified objects
+
+contents = dir('data*');
+
+if nargin > 1
+    objs = varargin{2};
+else
+    objs = 1:numel(contents)
+end
+
+for i = objs
+    load(contents(i).name);
+    for j = 1:numel(objects)
+        obj 
+    end
+end
