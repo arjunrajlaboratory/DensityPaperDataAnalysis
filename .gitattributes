@@ -1,0 +1,4 @@
+SingleCellSeqData/genomicDataFpkm.txt filter=lfs -text
+SingleCellSeqData/refSeq_2014-06-17_refGene_ERCC.gtf filter=lfs -text
+SingleCellSeqData/seqData_volume_and_counts_allGenes.txt filter=lfs -text
+SingleCellSeqData/totalDataFpkm.txt filter=lfs -text
